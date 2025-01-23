@@ -13,7 +13,7 @@ Læg mærke til:
 - Argumentet taxonomy beskriver, hvilken taxonomi man vil have fat i
 - Argumentet hide_empty skjuler f.eks. kategorier, der ikke er brugt, så man ikke gør det muligt at søge i øl-kategorier, der ikke er nogle øl i
 
-`
+```PHP
     $math_cat_tax = get_terms( array(
         'taxonomy' => 'category',
         'hide_empty' => true
@@ -28,4 +28,4 @@ Læg mærke til:
         'taxonomy' => 'beer_country',
         'hide_empty' => true
     ) );
-`
+```
