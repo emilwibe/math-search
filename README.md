@@ -14,18 +14,18 @@ Læg mærke til:
 - Argumentet hide_empty skjuler f.eks. kategorier, der ikke er brugt, så man ikke gør det muligt at søge i øl-kategorier, der ikke er nogle øl i
 
 ```PHP
-    $math_cat_tax = get_terms( array(
-        'taxonomy' => 'category',
-        'hide_empty' => true
-    ) );
+$math_cat_tax = get_terms( array(
+    'taxonomy' => 'category',
+    'hide_empty' => true
+) );
 
-    $math_brewery_tax = get_terms( array(
-        'taxonomy' => 'beer_brewery',
-        'hide_empty' => true
-    ) );
+$math_brewery_tax = get_terms( array(
+    'taxonomy' => 'beer_brewery',
+    'hide_empty' => true
+) );
 
-    $math_country_tax = get_terms( array(
-        'taxonomy' => 'beer_country',
-        'hide_empty' => true
-    ) );
+$math_country_tax = get_terms( array(
+    'taxonomy' => 'beer_country',
+    'hide_empty' => true
+) );
 ```
