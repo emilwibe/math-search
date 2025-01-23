@@ -12,7 +12,7 @@ I custom loop med WP_Query kan man bruge get_terms() til at få fat i taxonomier
 Læg mærke til:
 - Argumentet taxonomy beskriver, hvilken taxonomi man vil have fat i
 - Argumentet hide_empty skjuler f.eks. kategorier, der ikke er brugt, så man ikke gør det muligt at søge i øl-kategorier, der ikke er nogle øl i
-- 
+
 `
     $math_cat_tax = get_terms( array(
         'taxonomy' => 'category',
