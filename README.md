@@ -1,5 +1,4 @@
 # Hints til Søgefunktion
-> math-search
 
 ## Liste taxonomies i HTML-select
 Alle Select-inputs skal i samme formular.
